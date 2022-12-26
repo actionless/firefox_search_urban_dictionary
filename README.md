@@ -16,6 +16,7 @@ Icons can be just replaced in `./icons/` directory before the build.
 
 - `sh`
 - `7z`
+- [optional] `jq` (to generate version in built file)
 
 ## build
 

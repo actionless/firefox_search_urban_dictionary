@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-XPI_NAME=search_rutracker.xpi
+XPI_NAME="$(jq '.name+"_v"+.version' -r < manifest.json || echo 'search_rutracker_by_seeds').xpi"
 
 if [ -f "$XPI_NAME" ] ; then
 	rm "$XPI_NAME"
