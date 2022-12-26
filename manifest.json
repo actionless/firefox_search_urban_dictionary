@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "search_rutracker",
-	"version": "0.3",
-	"description": "Search Rutracker (by date)",
+	"name": "search_rutracker_by_seeds",
+	"version": "0.1",
+	"description": "Search Rutracker (by number of seeds)",
 
 	"icons": {
 		"48": "icons/icon.png",
@@ -11,9 +11,9 @@
 
 	"chrome_settings_overrides": {
 	  "search_provider": {
-		"name": "Rutracker (by date)",
-		"search_url": "https://rutracker.org/forum/tracker.php?nm={searchTerms}",
-		"keyword": "r",
+		"name": "Rutracker (by number of seeds)",
+		"search_url": "https://rutracker.org/forum/tracker.php?o=10&nm={searchTerms}",
+		"keyword": "rs",
 		"favicon_url": "/icons/favicon.ico"
 	  }
 	},
