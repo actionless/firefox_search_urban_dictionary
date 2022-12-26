@@ -20,7 +20,7 @@
 
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "{d06e5a21-e577-406f-bdb2-cf8dcaf99c29}",
+			"id": "firefox_search_rutracker_by_seeds@actionless.github.com",
 			"strict_min_version": "106.0"
 		}
 	}
