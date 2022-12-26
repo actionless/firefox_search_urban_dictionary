@@ -1,5 +1,5 @@
 {
-	"manifest_version": 3,
+	"manifest_version": 2,
 	"name": "search_rutracker_by_seeds",
 	"version": "0.1",
 	"description": "Search Rutracker (by number of seeds)",
