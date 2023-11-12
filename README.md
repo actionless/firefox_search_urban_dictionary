@@ -1,5 +1,5 @@
 # search_urban_dictionary firefox extension
-Search provider for [Urban Dictionary](https://urban_dictionary.org). Bound to `u` search keyword by default.
+Search provider for [Urban Dictionary](https://www.urbandictionary.com/). Bound to `u` search keyword by default.
 
 
 Good and easy example of firefox search extension using [`chrome_settings_overrides`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides).
