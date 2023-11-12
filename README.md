@@ -1,5 +1,5 @@
-# search_rutracker firefox extension
-Search provider for [Rutracker](https://rutracker.org), results are sorted by the number of seeds. Bound to `rs` search keyword by default.
+# search_urban_dictionary firefox extension
+Search provider for [Urban Dictionary](https://urban_dictionary.org). Bound to `u` search keyword by default.
 
 
 Good and easy example of firefox search extension using [`chrome_settings_overrides`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides).

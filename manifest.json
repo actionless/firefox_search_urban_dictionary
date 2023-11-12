@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "search_rutracker_by_seeds",
+	"name": "search_urban_dictionary",
 	"version": "0.1",
-	"description": "Search Rutracker (by number of seeds)",
+	"description": "Search Urban Dictionary",
 
 	"icons": {
 		"48": "icons/icon.png",
@@ -11,16 +11,16 @@
 
 	"chrome_settings_overrides": {
 	  "search_provider": {
-		"name": "Rutracker (by number of seeds)",
-		"search_url": "https://rutracker.org/forum/tracker.php?o=10&nm={searchTerms}",
-		"keyword": "rs",
+		"name": "Urban Dictionary",
+		"search_url": "https://www.urbandictionary.com/define.php?term={searchTerms}",
+		"keyword": "u",
 		"favicon_url": "/icons/favicon.ico"
 	  }
 	},
 
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "firefox_search_rutracker_by_seeds@actionless.github.com",
+			"id": "firefox_search_urban_dictionary@actionless.github.com",
 			"strict_min_version": "106.0"
 		}
 	}
